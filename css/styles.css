@@ -17,7 +17,8 @@
 }
 body {
   background: #FFFFFF;
-  font-family: var(--primary-font Roboto, sans-serif);
+  color:  #434455;
+  font-family: "Roboto", sans-serif
 }
 .link {
   text-decoration:none ;
