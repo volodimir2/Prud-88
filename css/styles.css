@@ -12,7 +12,10 @@
   --primary-font: Roboto, sans-serif
   --secondary-font: Raleway, sans-serif 
 }
-body {
+.hero {
+  background-color:#2E2F42;}
+
+  body {
   background: #FFFFFF;
   font-family: var(--primary-font Roboto, sans-serif);
 }
@@ -28,8 +31,8 @@ color: #2E2F42;
 }
 .header-nav-link:hover
 .header-nav-link:focus  
-.hero-main {
-background-color: #2E2F42;
+.hero {
+  background-color:#2E2F42;
 }
 .btn {
   background-color: #4D5AE5;
