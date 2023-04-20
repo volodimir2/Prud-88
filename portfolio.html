@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://fonts.googleapis.com"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -18,17 +18,17 @@
     <header>
       <!--header section-->
       <nav>
-        <a class="logo-web" href="./index.html">Web</a>
-        <a class="logo-studio" href="index.html">Studio</a>
+        <a class="logo-web link" href="./index.html">Web</a>
+        <span class="logo-studio link logo" href="index.html">Studio</span>
         <ul class="list">
           <li>
-            <a class="header-nav-link link" href="./index.html">Studio</a>
+            <a href="./index.html" class="header-nav-link header-nav:hover header-nav:focus link" >Studio</a>
           </li>
           <li>
-            <a class="header-nav-link link" href="./index.html">Portfolio</a>
+            <a href="./portfolio.html" class="header-nav-link header-nav:hover header-nav:focus link">Portfolio</a>
           </li>
           <li>
-            <a class="header-nav-link link" href="./index.html">Contacts</a>
+            <a href="./portfolio.html" class="header-nav-link header-nav:hover header-nav:focus link">Contacts</a>
           </li>
         </ul>
       </nav>
@@ -36,7 +36,7 @@
         <ul class="list">
           <li>
             <a
-              class="header-nav-link text link"
+              class="header-nav-link text link main-port"
               href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
@@ -50,134 +50,125 @@
       </address>
     </header>
     <main>
+      <h1 hidden>Property</h1>
       <!--Filters-->
       <ul class="list">
         <li>
-          <button class="butn" type="button">All</button>
+          <button class="btn-port" type="button">All</button>
         </li>
         <li>
-          <button type="button">Web Site</button>
+          <button class="btn-port" type="button">Web Site</button>
         </li>
         <li>
-          <button type="button">App</button>
+          <button class="btn-port" type="button">App</button>
         </li>
         <li>
-          <button type="button">Design</button>
+          <button class="btn-port" type="button">Design</button>
         </li>
         <li>
-          <button type="button">Marketing</button>
+          <button class="btn-port" type="button">Marketing</button>
         </li>
       </ul>
       <!--Row1-->
       <section>
         <ul class="list">
-          <li>
-            <img
+          <li class="link">
+            <img  
               src="./images/img9.jpg"
               alt="Banking App Interface Concept"
               width="360"
               height="300"
             />
-            <h3>Banking App Interface Concept</h3>
-            <p>App</p>
+            <h2 class="subtitle">Banking App Interface Concept</h2>
+            <p class="text">App</p>
           </li>
-          <li>
-            <img
+          <li class="link">
+            <img 
               src="./images/img10.jpg"
               alt="Cashless Payment"
               width="360"
               height="300"
             />
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
+            <h2 class="subtitle">Cashless Payment</h2>
+            <p class="text">Marketing</p>
           </li>
-          <li>
+          <li class="link">
             <img
               src="./images/img11.jpg"
               alt="Meditation App"
               width="360"
               height="300"
             />
-            <h3>Meditation App</h3>
-            <p>App</p>
+            <h2 class="subtitle">Meditation App</h2>
+            <p class="text">App</p>
           </li>
-        </ul>
-      </section>
-      <!--Row2-->
-      <section>
-        <ul class="list">
-          <li>
+          <li class="link">
             <img
               src="./images/img12.jpg"
               alt="Taxi Service"
               width="360"
               height="300"
             />
-            <h3>Taxi Service</h3>
-            <p>Marketing</p>
+            <h2 class="subtitle">Taxi Service</h2>
+            <p class="text">Marketing</p>
           </li>
-          <li>
+          <li class="link">
             <img
               src="./images/img13.jpg"
               alt="Screen Illustrations"
               width="360"
               height="300"
             />
-            <h3>Screen Illustrations</h3>
-            <p>Design</p>
+            <h2 class="subtitle">Screen Illustrations</h2>
+            <p class="text">Design</p>
           </li>
-          <li>
+          <li class="link">
             <img
               src="./images/img14.jpg"
               alt="Online Courses"
               width="360"
               height="300"
             />
-            <h3>Online Courses</h3>
-            <p>Marketing</p>
+            <h2 class="subtitle">Online Courses</h2>
+            <p class="text">Marketing</p>
           </li>
-        </ul>
-      </section>
-      <!--Row3-->
-      <section>
-        <ul class="list">
-          <li>
+          <li class="link">
             <img
               src="./images/img15.jpg"
               alt="Instagram Stories Concept"
               width="360"
               height="300"
             />
-            <h3>Instagram Stories Concept</h3>
-            <p>Design</p>
+            <h2 class="subtitle">Instagram Stories Concept</h2>
+            <p class="text">Design</p>
           </li>
-          <li>
+          <li class="link">
             <img
               src="./images/img16.jpg"
               alt="Organic Food"
               width="360"
               height="300"
             />
-            <h3>Organic Food</h3>
-            <p>Web Site</p>
+            <h2 class="subtitle">Organic Food</h2>
+            <p class="text">Web Site</p>
           </li>
-          <li>
+          <li class="link">
             <img
               src="./images/img17.jpg"
               alt="Fresh Coffee"
               width="360"
               height="300"
             />
-            <h3>Fresh Coffee</h3>
-            <p>Web Site</p>
+            <h2 class="subtitle">Fresh Coffee</h2>
+            <p class="text">Web Site</p>
           </li>
         </ul>
       </section>
     </main>
     <!--footer section-->
     <footer class="page-footer">
-      <a class="logo-web" href="./index.html">Web</a>
-      <a class="alert" href="index.html">STUDIO</a>
+      <a class="logo-web link" href="./index.html">Web</a>
+      <span class="logo-studio link logo" href="./index.html">STUDIO</span>
       <p class="alert">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.

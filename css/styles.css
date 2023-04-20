@@ -15,6 +15,9 @@
 .hero {
   background-color: #2E2F42;
 }
+.logo {
+color: (var --color-navyblue);
+}
 body {
   background: #FFFFFF;
   color:  #434455;
@@ -24,54 +27,88 @@ body {
   text-decoration:none ;
 }
 .header-nav-link {
-  font-weight: 500;
+font-weight: 500;
 font-size: 16px;
 line-height: 1,5;
 letter-spacing: 0.02em;
 color: #2E2F42;
 }
-.header-nav-link:hover
-.header-nav-link:focus  
+.header-nav:hover {
+  color:  #404bbf;
+}
+.header-nav:focus {
+  color: #404bbf;
+}
+   
 .hero-main {
 background-color: #2E2F42;
 }
 .btn {
-  background-color: #4D5AE5;
-  font-weight: 500;
+ font-family: "Roboto:sans-serif";
+ background-color: #4D5AE5;
+ font-weight: 500;
 font-size: 16px;
 line-height: 1,5;
 letter-spacing: 0.04em;
+cursor: pointer; 
 color: #FFFFFF;
 }
+.btn:hover {
+  background-color: #404BBF 
+}
+.btn:focus {
+  background-color: #404BBF 
+}
 .promo-sektion {
-  background:  #e5e5e5;
+  background:  #F4F4FD;
 }
 .page-footer {
   background:  #2e2f42;
 }
 .alert {
-    color:  #FFFFFF;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;    
+  color:  #FFFFFF;
 }
 .subtitle {
-    color:  #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;  
+  color:  #2e2f42;
+}
+.subtitle-text {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color:  #2e2f42;
 }
 .text {
-    color:  #434455;;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em; 
+  color:  #434455;;
 }
 .list {
   list-style: none;
+  font-style: normal; 
 }
 .logo-web {
-  font-family: 'Raleway';
+  font-family: 'Raleway',sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1,17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4D5AE5;
+hover
 }
 .logo-studio {
-  font-family: 'Raleway';
+font-family: 'Raleway',sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
@@ -79,4 +116,25 @@ line-height: 1,17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #2E2F42;
+}
+.promo-text {
+  background-color: #FFFFFF;
+}
+.btn-port {
+   font-family: "Roboto:sans-serif";
+   background-color: var(--cloud-color);
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1,5;
+   letter-spacing: 0.04em;
+   cursor: pointer; 
+   color: var(--color-iris);
+}
+.main-port:hover {
+  color: #FFFFFF;
+  background-color: #404BBF 
+}
+.main-port:focus {
+  color: #FFFFFF;
+  background-color: #404BBF 
 }

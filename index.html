@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://fonts.googleapis.com"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -18,19 +18,31 @@
     <header>
       <!--header section-->
       <nav>
-        <a class="logo-web" href="./portfolio.html">Web</a>
-        <a class="logo-studio" href="./portfolio.html">Studio</a>
+        <a class="logo-web link" href="./portfolio.html">Web</a>
+        <span class="logo-studio link logo" href="./portfolio.html"
+          >Studio</span
+        >
         <ul class="list">
           <li>
-            <a class="header-nav-link link" href="./portfolio.html">Studio</a>
+            <a
+              href="./index.html"
+              class="header-nav-link:hover header-nav-link:focus link"
+              >Studio</a
+            >
           </li>
           <li>
-            <a class="header-nav-link link" href="./portfolio.html"
+            <a
+              href="./portfolio.html"
+              class="header-nav-link:hover header-nav-link:focus link"
               >Portfolio</a
             >
           </li>
           <li>
-            <a class="header-nav-link link" href="./portfolio.html">Contacts</a>
+            <a
+              href="./index.html"
+              class="header-nav-link:hover header-nav-link:focus link"
+              >Contacts</a
+            >
           </li>
         </ul>
       </nav>
@@ -38,13 +50,15 @@
         <ul class="list">
           <li>
             <a
-              class=".header-nav-link text link"
               href="mailto:info@devstudio.com"
+              class="header-nav-link:hover header-nav-link:focus link text"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class=".header-nav-link text link" href="tel:+110001111111"
+            <a
+              href="tel:+110001111111"
+              class="header-nav-link:hover header-nav-link:focus link text"
               >+11 (000) 111-11-11</a
             >
           </li>
@@ -56,11 +70,13 @@
       <!--section1-->
       <section class="hero">
         <h1 class="alert">Effective Solutions for Your Business</h1>
-        <button class="btn alert" type="button">Order Service</button>
+        <button class="btn btn:hover btn:focus" type="button">
+          Order Service
+        </button>
       </section>
       <!--section2-->.
       <section>
-        <h2>Property</h2>
+        <h2 hidden>Property</h2>
         <ul class="list">
           <li>
             <h3 class="subtitle">Strategy</h3>
@@ -94,7 +110,7 @@
       </section>
       <!--section3-->
       <section>
-        <h2 class="subtitle">What are we doing</h2>
+        <h2 class="subtitle-text">What are we doing</h2>
         <ul class="list">
           <li>
             <img src="./images/img1.jpg" alt="img1" width="360" height="300" />
@@ -109,9 +125,9 @@
       </section>
       <!--section4-->
       <section class="promo-sektion">
-        <h2 class="subtitle">Our Team</h2>
+        <h2 class="subtitle-text">Our Team</h2>
         <ul class="list">
-          <li>
+          <li class="promo-text">
             <img
               src="./images/img4.jpg"
               alt="Mark Guerrero"
@@ -121,7 +137,7 @@
             <h3 class="subtitle">Mark Guerrero</h3>
             <p class="text">Product Designer</p>
           </li>
-          <li>
+          <li class="promo-text">
             <img
               src="./images/img5.jpg"
               alt="Tom Ford"
@@ -131,7 +147,7 @@
             <h3 class="subtitle">Tom Ford</h3>
             <p class="text">Frontend Developer</p>
           </li>
-          <li>
+          <li class="promo-text">
             <img
               src="./images/img6.jpg"
               alt="Camila Garcia"
@@ -141,7 +157,7 @@
             <h3 class="subtitle">Camila Garcia</h3>
             <p class="text">Marketing</p>
           </li>
-          <li>
+          <li class="promo-text">
             <img
               src="./images/img7.jpg"
               alt="Daniel Wilson"
@@ -156,8 +172,8 @@
     </main>
     <!--footer section-->
     <footer class="page-footer">
-      <a class="logo-web" href="./Portfolio.html">WEB</a>
-      <a class="alert" href="./Portfolio.html">STUDIO</a>
+      <a class="logo-web link" href="./Portfolio.html">WEB</a>
+      <span class="logo-studio link logo" href="./portfolio.html">Studio</span>
       <p class="alert">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
