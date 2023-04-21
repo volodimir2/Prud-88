@@ -135,11 +135,11 @@ color: #f4f4fd;
    cursor: pointer; 
    color: var(--color-iris);
    }
-btn-port:hover {
+.btn-port:hover {
   color: #FFFFFF;
   background-color: #404BBF
 }
-btn-port:focus {
+.btn-port:focus {
   color: #FFFFFF;
   background-color:  #404BBF
 }
