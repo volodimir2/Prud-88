@@ -14,9 +14,6 @@
 .hero {
   background-color: #2E2F42;
 }
-.logo {
-color: (var --color-navyblue);
-}
 body {
   background: #FFFFFF;
   color:  #434455;
@@ -87,15 +84,17 @@ color: #FFFFFF;
   color:  #2e2f42;
 }
 .text {
-  font-style: normal
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em; 
-  color:  #434455;;
+  color:  #434455;
 }
 .list {
   list-style: none;
   font-style: normal; 
+}
+.text-list {
+  font-style: normal
 }
 .logo-web {
   font-family: 'Raleway',sans-serif;
@@ -104,7 +103,7 @@ color: #FFFFFF;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--color-navyblue);
+  color: var(--color-iris);
 }
 .logo-studio {
 font-family: 'Raleway',sans-serif;
@@ -115,6 +114,12 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #f4f4fd;
+}
+.logo-span {
+  color: var(--color-navyblue);
+}
+.header-span {
+  color: #F4F4FD;
 }
 .promo-text {
   background-color: #FFFFFF;
