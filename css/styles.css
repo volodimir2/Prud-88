@@ -91,7 +91,6 @@ color: #FFFFFF;
 }
 .list {
   list-style: none;
-  font-style: normal; 
 }
 .text-list {
   font-style: normal
@@ -125,7 +124,7 @@ color: #f4f4fd;
   background-color: #FFFFFF;
 }
 .btn-port {
-   font-family: "Roboto:sans-serif";
+   font-family: 'Roboto',sans-serif;
    background-color: var(--cloud-color);
    font-weight: 500;
    font-size: 16px;
