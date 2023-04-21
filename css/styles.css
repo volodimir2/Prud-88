@@ -134,12 +134,21 @@ color: #f4f4fd;
    letter-spacing: 0.04em;
    cursor: pointer; 
    color: var(--color-iris);
-}
-.main-port:hover {
+   }
+btn-port:hover {
   color: #FFFFFF;
-  background-color: #404BBF 
+  background-color: #404BBF
 }
-.main-port:focus {
+btn-port:focus {
   color: #FFFFFF;
-  background-color: #404BBF 
+  background-color:  #404BBF
+}
+
+main-port:hover {
+  color: #FFFFFF;
+  background-color:  #404BBF 
+}
+main-port:focus {
+  color: #FFFFFF;
+  background-color:  #404BBF 
 }
