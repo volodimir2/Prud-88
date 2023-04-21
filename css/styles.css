@@ -50,10 +50,12 @@ cursor: pointer;
 color: #FFFFFF;
 }
 .btn:hover {
-  background-color: #404BBF 
+  background-color: #404BBF; 
+  color: #FFFFFF;
 }
 .btn:focus {
-  background-color: #404BBF 
+  background-color: #404BBF; 
+  color: #FFFFFF;
 }
 .promo-sektion {
   background:  #F4F4FD;
