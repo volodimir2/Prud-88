@@ -11,32 +11,37 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Шапка сторінки -->
-    <header>
+    <header class="container-index">
       <!--header section-->
-      <nav>
+      <div class="flex-container-index container">
+      <nav class="container-nav">
         <a class="logo-web link" href="./portfolio.html"
           >Web<span class="logo-span">Studio</span></a
         >
-        <ul class="list">
-          <li>
+        <ul class="menu list">
+          <li class="item">
             <a class="header-nav-link link" href="./index.html">Studio</a>
           </li>
-          <li>
+          <li class="item">
             <a class="header-nav-link link" href="./portfolio.html"
               >Portfolio</a
             >
           </li>
-          <li>
+          <li class="item">
             <a class="header-nav-link link" href="">Contacts</a>
           </li>
         </ul>
       </nav>
       <address class="text-list">
-        <ul class="list">
+        <ul class="menu list">
           <li>
             <a
               class="header-nav-link text link"
@@ -53,31 +58,33 @@
           </li>
         </ul>
       </address>
+    </div>
     </header>
     <main>
-      <section>
-        <h1 class="btn" hidden>Property</h1>
+      <section class="port-main">
+        <div class="container">
+        <h1 class="btn:" hidden>Property</h1>
         <!--Filters-->
-        <ul class="list">
+        <ul class="port-menu list">
           <li>
-            <button class="btn-port" type="button">All</button>
+            <button class="btn-portfol" type="button">All</button>
           </li>
           <li>
-            <button class="btn-port" type="button">Web Site</button>
+            <button class="btn-portfol" type="button">Web Site</button>
           </li>
           <li>
-            <button class="btn-port" type="button">App</button>
+            <button class="btn-portfol" type="button">App</button>
           </li>
           <li>
-            <button class="btn-port" type="button">Design</button>
+            <button class="btn-portfol" type="button">Design</button>
           </li>
           <li>
-            <button class="btn-port" type="button">Marketing</button>
+            <button class="btn-portfol" type="button">Marketing</button>
           </li>
         </ul>
         <!--Row1-->
-        <ul class="list">
-          <li>
+        <ul class="portfol-menu list">
+          <li class="picture">
             <a class="link" href="./images/img9.jpg">
               <img
                 src="./images/img9.jpg"
@@ -85,11 +92,13 @@
                 width="360"
                 height="300"
               />
+              <div class="port-picture">
               <h2 class="subtitle">Banking App Interface Concept</h2>
               <p class="text">App</p>
+              </div>
             </a>
           </li>
-          <li>
+          <li class="picture">
             <a class="link" href="./images/img10.jpg">
               <img
                 src="./images/img10.jpg"
@@ -97,11 +106,13 @@
                 width="360"
                 height="300"
               />
+              <div class="port-picture">
               <h2 class="subtitle">Cashless Payment</h2>
               <p class="text">Marketing</p>
+            </div>
             </a>
           </li>
-          <li>
+          <li class="picture">
             <a class="link" href="./images/img11.jpg">
               <img
                 src="./images/img11.jpg"
@@ -109,11 +120,13 @@
                 width="360"
                 height="300"
               />
+              <div class="port-picture">
               <h2 class="subtitle">Meditation App</h2>
               <p class="text">App</p>
+            </div>
             </a>
           </li>
-          <li>
+          <li class="picture">
             <a class="link" href="./images/img12.jpg">
               <img
                 src="./images/img12.jpg"
@@ -121,11 +134,13 @@
                 width="360"
                 height="300"
               />
+              <div class="port-picture">
               <h2 class="subtitle">Taxi Service</h2>
               <p class="text">Marketing</p>
+            </div>
             </a>
           </li>
-          <li>
+          <li class="picture">
             <a class="link" href="./images/img13.jpg">
               <img
                 src="./images/img13.jpg"
@@ -133,11 +148,13 @@
                 width="360"
                 height="300"
               />
+              <div class="port-picture">
               <h2 class="subtitle">Screen Illustrations</h2>
               <p class="text">Design</p>
+            </div>
             </a>
           </li>
-          <li>
+          <li class="picture">
             <a class="link" href="./images/img14.jpg">
               <img
                 src="./images/img14.jpg"
@@ -145,11 +162,13 @@
                 width="360"
                 height="300"
               />
+              <div class="port-picture">
               <h2 class="subtitle">Online Courses</h2>
               <p class="text">Marketing</p>
+            </div>
             </a>
           </li>
-          <li>
+          <li class="picture">
             <a class="link" href="./images/img15.jpg">
               <img
                 src="./images/img15.jpg"
@@ -157,11 +176,13 @@
                 width="360"
                 height="300"
               />
+              <div class="port-picture">
               <h2 class="subtitle">Instagram Stories Concept</h2>
               <p class="text">Design</p>
+            </div>
             </a>
           </li>
-          <li>
+          <li class="picture">
             <a class="link" href="./images/img16.jpg">
               <img
                 src="./images/img16.jpg"
@@ -169,11 +190,13 @@
                 width="360"
                 height="300"
               />
+              <div class="port-picture">
               <h2 class="subtitle">Organic Food</h2>
               <p class="text">Web Site</p>
+            </div>
             </a>
           </li>
-          <li>
+          <li class="picture">
             <a class="link" href="./images/img17.jpg">
               <img
                 src="./images/img17.jpg"
@@ -181,15 +204,19 @@
                 width="360"
                 height="300"
               />
+              <div class="port-picture">
               <h2 class="subtitle">Fresh Coffee</h2>
               <p class="text">Web Site</p>
+            </div>
             </a>
           </li>
         </ul>
+      </div>
       </section>
     </main>
     <!--footer section-->
     <footer class="page-footer">
+      <div class="container">
       <a class="logo-web link" href="./portfolio.html"
         >Web<span class="header-span">Studio</span></a
       >
@@ -197,6 +224,7 @@
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
+    </div>
     </footer>
   </body>
 </html>

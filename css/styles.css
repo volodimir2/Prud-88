@@ -7,12 +7,14 @@
   --white-color: #ffffff;
   --cloud-color: #f4f4fd;
   --accent-color: #e5e5e5;
+  --border-color: #e7e9fc;
   /* Fonts */
   --primary-font: Roboto, sans-serif;
   --secondary-font: Raleway, sans-serif;
 }
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0; 
 }
 body {
   background: #ffffff;
@@ -46,14 +48,19 @@ body {
   background-color: #2e2f42;
 }
 .btn {
+  display: block;
   font-family: "Roboto", sans-serif;
-  background-color: #4d5ae5;
+  background-color: var(--color-iris);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
   color: #ffffff;
+  min-width: 169px;
+  height: 56px;
+  border: none; 
+  border-radius: 4px;
 }
 .btn:hover {
   background-color: #404bbf;
@@ -65,9 +72,11 @@ body {
 }
 .promo-sektion {
   background: #f4f4fd;
+  padding: 120px 0 
 }
 .page-footer {
   background: #2e2f42;
+  padding: 100px;
 }
 .alert {
   font-size: 16px;
@@ -75,6 +84,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 496px;
 }
 .alert-footer {
   font-size: 16px;
@@ -82,6 +92,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 .subtitle {
   font-weight: 500;
@@ -89,6 +100,8 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
+  text-align: center;
 }
 .subtitle-text {
   font-size: 36px;
@@ -97,14 +110,17 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
 }
 .logo-web {
+  display: flex;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -112,8 +128,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
-  display: flex;
-  padding: 24px,0,24px,156px;
+  margin-right: 76px; 
 }
 .logo-studio {
   font-family: "Raleway", sans-serif;
@@ -132,7 +147,9 @@ body {
   color: #f4f4fd;
 }
 .promo-text {
+  width: calc((100% - 72px) / 4);
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 .btn-port {
   font-family: "Roboto", sans-serif;
@@ -161,24 +178,114 @@ main-port:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
+/*flex-three-home*/
+.container-index {
+  display: flex;
+  border-bottom: 1px solid #e7e9fc ;
+}
 .flex-container-index {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  max-width: 1158px;
 }
-.flex-container {
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px; 
+}
+.container-nav {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  max-width: 261px;
+}
+.menu {
+  display: flex;
+  align-items: center;
   gap: 40px;
 }
-.flex-item {
-display: flex;
-padding: 0;
-align-items: center;
-justify-content: space-between;
-} 
+.item {
+padding-top: 24px;
+padding-bottom: 24px;
+}
+.item-primery {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin: 0;  
+}
+.second {
+  padding: 120px 0; 
+}
+.menu-second {
+  display: flex;
+  gap: 24;
+}
+.item-secondary {
+  width: calc((100% - 72px) / 4);
+}
+.third {
+  padding-bottom: 120px;
+}
+.menu-third {
+  display: flex;
+  gap: 24px;
+}
+.item-third {
+  display: block;
+  width: calc((100% - 48px) / 3);
+}
+.menu-four {
+  display: flex;
+  gap: 24px;
+}
+.slide {
+  display: block
+}
+.slide-four {
+  padding: 32px 16px;
+}
+.page-web {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+/*portfolio*/
+.port-main {
+  padding: 96px 0 120px;
+}
+.port-menu {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+.btn-portfol {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--cloud-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--color-iris);
+  padding: 12px 24px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+}
+.btn-portfol:hover {
+  border: 1px solid transparent;
+}
+.btn-portfol:focus {
+  border: 1px solid transparent;
+}
+.portfol-menu {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.picture {
+  width: calc((100% - 48px) / 3);
+}
+.port-picture {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none; 
+}
