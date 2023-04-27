@@ -220,7 +220,7 @@ main-port:focus {
   gap: 24px;
 }
 .item-two {
-  flex-basis: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 .third {
   padding-bottom: 120px;
