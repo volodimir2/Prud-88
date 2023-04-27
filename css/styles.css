@@ -217,7 +217,7 @@ main-port:focus {
 }
 .menu-two {
   display: flex;
-  gap: 24;
+  gap: 24px;
 }
 .item-two {
   flex-basis: calc((100% - 72px) / 4);
