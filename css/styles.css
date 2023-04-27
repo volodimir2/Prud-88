@@ -215,10 +215,11 @@ main-port:focus {
 .second {
   padding: 120px 0; 
 }
-.menu-second {
+.menu-two {
   display: flex;
+  gap: 24;
 }
-.item-secondary {
+.item-two {
   flex-basis: calc((100% - 72px) / 4);
 }
 .third {
@@ -277,7 +278,7 @@ main-port:focus {
 .btn-portfol:focus {
   border: 1px solid transparent;
 }
-.portfol-menu {
+.menu-portfol {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
