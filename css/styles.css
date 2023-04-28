@@ -14,12 +14,22 @@
 }
 .hero {
   background-color: #2e2f42;
-  padding: 188px 0; 
+  padding: 188px 0;
 }
 body {
   background: #ffffff;
   color: #434455;
   font-family: "Roboto", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
 }
 .link {
   text-decoration: none;
@@ -29,6 +39,7 @@ body {
 }
 .text-list {
   font-style: normal;
+  margin-left: 332px;
 }
 .header-nav-link {
   font-weight: 400;
@@ -61,8 +72,11 @@ body {
   color: #ffffff;
   min-width: 169px;
   height: 56px;
-  border: none; 
+  border: none;
   border-radius: 4px;
+  margin-left: 494px;
+  margin-right: 495px;
+  margin-top: 48px;
 }
 .btn:hover {
   background-color: #404bbf;
@@ -74,24 +88,28 @@ body {
 }
 .promo-sektion {
   background: #f4f4fd;
-  padding: 120px 0 
+  padding: 120px 0;
+  max-height: 732px;
 }
 .page-footer {
   background: #2e2f42;
   padding: 100px;
 }
 .alert {
-  font-size: 16px;
+  font-size: 56px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  max-width: 496px;
+  max-width: 887px;
+  margin: 0 auto;
+  padding-left: 188px;
+  padding-right: 188px;
 }
 .alert-footer {
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;
+  text-align: left;
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
@@ -103,7 +121,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  text-align: center;
+  text-align: left;
 }
 .subtitle-text {
   font-size: 36px;
@@ -114,12 +132,22 @@ body {
   color: #2e2f42;
   margin-bottom: 72px;
 }
+.subtitle-center {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+  text-align: center;
+}
 .text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  text-align: center;
+  
+  margin-bottom: 120px;
 }
 .logo-web {
   display: flex;
@@ -130,7 +158,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
-  margin-right: 76px; 
+  margin-right: 76px;
 }
 .logo-studio {
   font-family: "Raleway", sans-serif;
@@ -182,8 +210,9 @@ main-port:focus {
 }
 /*flex-three-home*/
 .container-index {
-  display: flex;
-  border-bottom: 1px solid #e7e9fc ;
+  border-bottom: 1px solid #e7e9fc;
+padding-bottom: 0;
+margin-bottom: 0;
 }
 .flex-container-index {
   display: flex;
@@ -193,7 +222,7 @@ main-port:focus {
   width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
-  padding-right: 15px; 
+  padding-right: 15px;
 }
 .container-nav {
   display: flex;
@@ -203,6 +232,8 @@ main-port:focus {
   display: flex;
   align-items: center;
   gap: 40px;
+  margin: 0;
+  padding: 0;
 }
 .item {
   width: calc((100% - 72px) / 4);
@@ -210,44 +241,52 @@ main-port:focus {
 .item-primery {
   padding-top: 24px;
   padding-bottom: 24px;
-  margin: 0;  
+  margin: 0;
 }
 .second {
-  padding: 120px 0; 
+  padding: 120px 0;
+  max-height: 104px;
 }
 .menu-two {
   display: flex;
   gap: 24px;
+  max-height: 104px;
 }
 .item-two {
   width: calc((100% - 72px) / 4);
 }
 .third {
-  padding-bottom: 120px;
+  padding-bottom: 65px;
+margin-top: 120px;
 }
 .menu-third {
   display: flex;
   gap: 24px;
+  justify-content: flex-start;
+  padding: 0;
 }
 .item-third {
-  flex-basis: calc((100% - 3 * 16px) / 3);
+  flex-basis: calc((100% - 2 * 24px) / 3);
 }
 .menu-four {
   display: flex;
   gap: 24px;
+  justify-content: space-evenly;
 }
 .slide {
   display: block;
 }
 .slide-four {
   padding: 32px 16px;
+  text-align: center;
 }
 .page-web {
   display: inline-block;
   margin-bottom: 16px;
 }
 .page-footer {
-  padding: 100px 0;
+  min-height: 312px;
+  padding: 120px 0;
 }
 /*portfolio*/
 .port-main {
@@ -258,6 +297,7 @@ main-port:focus {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
+  padding-left: 0;
 }
 .btn-portfol {
   font-family: "Roboto", sans-serif;
@@ -286,9 +326,11 @@ main-port:focus {
 }
 .picture {
   width: calc((100% - 48px) / 3);
+height: 420px;
+margin-top: 48px;
 }
 .port-picture {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
-  border-top: none; 
+  border-top: none;
 }
