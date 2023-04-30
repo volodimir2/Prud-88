@@ -36,13 +36,15 @@ p {
 }
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .text-list {
   font-style: normal;
   margin-left: 332px;
 }
 .header-nav-link {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -76,7 +78,6 @@ p {
   border-radius: 4px;
   margin-left: 494px;
   margin-right: 495px;
-  margin-top: 48px;
 }
 .btn:hover {
   background-color: #404bbf;
@@ -89,11 +90,10 @@ p {
 .promo-sektion {
   background: #f4f4fd;
   padding: 120px 0;
-  max-height: 732px;
 }
 .page-footer {
   background: #2e2f42;
-  padding: 100px;
+  padding: 100px 0;
 }
 .alert {
   font-size: 56px;
@@ -101,10 +101,9 @@ p {
   text-align: center;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  max-width: 887px;
+  max-width: 496px;
   margin: 0 auto;
-  padding-left: 188px;
-  padding-right: 188px;
+  margin-bottom: 48px;
 }
 .alert-footer {
   font-size: 16px;
@@ -146,8 +145,6 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  
-  margin-bottom: 120px;
 }
 .logo-web {
   display: flex;
@@ -245,24 +242,20 @@ margin-bottom: 0;
 }
 .second {
   padding: 120px 0;
-  max-height: 104px;
 }
 .menu-two {
   display: flex;
   gap: 24px;
-  max-height: 104px;
 }
 .item-two {
   width: calc((100% - 72px) / 4);
 }
 .third {
-  padding-bottom: 65px;
-margin-top: 120px;
+  padding-bottom: 120px;
 }
 .menu-third {
   display: flex;
   gap: 24px;
-  justify-content: flex-start;
   padding: 0;
 }
 .item-third {
@@ -276,6 +269,11 @@ margin-top: 120px;
 .slide {
   display: block;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 .slide-four {
   padding: 32px 16px;
   text-align: center;
@@ -284,10 +282,7 @@ margin-top: 120px;
   display: inline-block;
   margin-bottom: 16px;
 }
-.page-footer {
-  min-height: 312px;
-  padding: 120px 0;
-}
+
 /*portfolio*/
 .port-main {
   padding: 96px 0 120px;
@@ -326,8 +321,6 @@ margin-top: 120px;
 }
 .picture {
   width: calc((100% - 48px) / 3);
-height: 420px;
-margin-top: 48px;
 }
 .port-picture {
   padding: 32px 16px;
