@@ -41,7 +41,7 @@ p {
 }
 .text-list {
   font-style: normal;
-  margin-left: 332px;
+  margin-left: auto;
 }
 .header-nav-link {
   font-weight: 500;
@@ -229,11 +229,9 @@ margin-bottom: 0;
   display: flex;
   align-items: center;
   gap: 40px;
-  margin: 0;
-  padding: 0;
 }
 .item {
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 80px) / 3);
 }
 .item-primery {
   padding-top: 24px;
@@ -284,6 +282,7 @@ img {
 }
 
 /*portfolio*/
+
 .port-main {
   padding: 96px 0 120px;
 }
@@ -327,3 +326,18 @@ img {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+/*hero image*/
+
+.hero {
+height: 600px;
+outline: 1px solid black;
+max-width: 1440px;
+margin-left: auto;
+margin-right: auto;
+background-image: linear-gradient(
+  rgba(46, 47, 66, 0.5)),
+   url("../images/people-office1.jpg");
+background-size: cover;
+background-position: center;
+}
+
