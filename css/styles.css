@@ -12,14 +12,15 @@
   --primary-font: Roboto, sans-serif;
   --secondary-font: Raleway, sans-serif;
 }
+
+body {
+  background-color: #ffffff;
+  color: #434455;
+  font-family: "Roboto", sans-serif;
+}
 .hero {
   background-color: #2e2f42;
   padding: 188px 0;
-}
-body {
-  background: #ffffff;
-  color: #434455;
-  font-family: "Roboto", sans-serif;
 }
 h1,
 h2,
@@ -207,14 +208,18 @@ main-port:focus {
 }
 /*flex-three-home*/
 .container-index {
+  display: flex;
   border-bottom: 1px solid #e7e9fc;
-padding-bottom: 0;
-margin-bottom: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .flex-container-index {
   display: flex;
   align-items: center;
 }
+
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -329,15 +334,59 @@ img {
 /*hero image*/
 
 .hero {
-height: 600px;
-outline: 1px solid black;
-max-width: 1440px;
-margin-left: auto;
-margin-right: auto;
-background-image: linear-gradient(
-  rgba(46, 47, 66, 0.5)),
-   url("../images/people-office1.jpg");
-background-size: cover;
-background-position: center;
+  height: 600px;
+  outline: 1px solid black;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+    (rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url("../images/office.png")
+  );
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+/*!--shadow--*/
 
+.shadow {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px; 
+}
+.social {
+  display: flex;
+  justify-content: center; 
+  gap: 24px;
+}
+.sicon {
+  width: 40px;
+  height: 40px;
+}
+.isicon {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-iris);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.isicon:focus {
+  background-color: #404bbf;
+}
+.isicon:hover {
+  background-color: #404bbf;
+} 
+.insicon {
+  fill: var(--cloud-color)
+}
