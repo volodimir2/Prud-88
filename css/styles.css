@@ -23,6 +23,19 @@ body {
   background-color: #2e2f42;
   padding: 188px 0;
 }
+.hero-own {
+  height: 600px;
+  outline: 1px solid black;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient
+    (rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url("../images/office.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 h1,
 h2,
 h3,
@@ -346,20 +359,6 @@ img {
 }
 /*hero image*/
 
-.hero {
-  height: 600px;
-  outline: 1px solid black;
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: linear-gradient(
-    (rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url("../images/office.png")
-  );
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
 .box {
   display: flex;
   align-items: center;
