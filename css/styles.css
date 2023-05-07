@@ -28,7 +28,11 @@ body {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url("../images/office.png");
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url("../images/img18.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -48,10 +52,12 @@ p {
   display: block;
 }
 .link:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .link:focus {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .list {
   list-style: none;
@@ -273,7 +279,7 @@ main-port:focus {
 }
 .item-two {
   width: calc((100% - 72px) / 4);
-margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 .third {
   padding-bottom: 120px;
@@ -300,9 +306,8 @@ img {
   height: auto;
 }
 .slide-four {
-  padding: 32px 24px;
+  padding: 32px 0px;
   text-align: center;
-
 }
 .page-web {
   display: inline-block;
@@ -336,11 +341,13 @@ img {
 }
 .btn-portfol:hover {
   border: 1px solid transparent;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .btn-portfol:focus {
   border: 1px solid transparent;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .menu-portfol {
   display: flex;
@@ -407,7 +414,7 @@ img {
   line-height: 1.1;
   color: var(--color-navyblue);
   margin-bottom: 72px;
-  text-align: center; 
+  text-align: center;
 }
 .spisok-fifth {
   display: flex;
@@ -454,7 +461,7 @@ img {
 .container-logo {
   gap: 120px;
   margin-right: 120px;
-  margin-left: 156px
+  margin-left: 156px;
 }
 .social-footer {
   font-weight: 500;
@@ -468,7 +475,6 @@ img {
   display: flex;
   gap: 16px;
   padding: 0;
-  
 }
 .footer-icon {
   width: 40px;
@@ -482,6 +488,12 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.logo-company:hover {
+  background-color: #31d0aa;
+}
+.logo-company:focus {
+  background-color: #31d0aa;
 }
 .footer-icon:hover {
   background-color: #31d0aa;
