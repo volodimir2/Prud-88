@@ -24,14 +24,11 @@ body {
   padding: 188px 0;
 }
 .hero-own {
-  height: 600px;
   outline: 1px solid black;
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient
-    (rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url("../images/office.png");
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url("../images/office.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
