@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- Шапка сторінки -->
+    <header class="container container-index">
+      <!--header section-->
+      <div class="flex-container-index container">
+        <nav class="container-nav">
+          <a class="logo-web link" href="./portfolio.html"
+            >Web<span class="logo-span">Studio</span></a
+          >
+          <ul class="menu list">
+            <li class="item">
+              <a class="header-nav-link link aktive" href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li class="item">
+              <a class="header-nav-link link" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="item">
+              <a class="header-nav-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="text-list">
+          <ul class="menu list">
+            <li class="item-primery">
+              <a class="text link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="item-primery">
+              <a class="text link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+    </header>
+    <!--hero image-->
+    <main>
+      <!--section1-->
+      <section class="hero hero-own">
+        <div class="container">
+          <h1 class="alert">Effective Solutions for Your Business</h1>
+          <button class="btn" data-modal-open type="button">
+            Open modal window
+          </button>
+        </div>
+      </section>
+    </main>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="btn-modal" type="button" data-modal-close>
+          Close
+          <svg class="close" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
+  </body>
+</html>
