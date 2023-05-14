@@ -24,7 +24,6 @@ body {
   padding: 188px 0;
 }
 .hero-own {
-  outline: 1px solid black;
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
@@ -49,16 +48,17 @@ p {
 }
 .link {
   text-decoration: none;
-  display: block;
-  position: relative;
+  display: inline block;
 }
-.link:hover {
+.text-adress:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  color: #404bbf;
 }
-.link:focus {
+.text-adress:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  color: #404bbf;
 }
 .list {
   list-style: none;
@@ -74,7 +74,7 @@ p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #404bbf;
+  color: var(--color-navyblue);
   padding: 24px 0;
   width: calc((100% - 48px) / 3);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -85,7 +85,6 @@ p {
 .header-nav-link:focus {
   color: #404bbf;
 }
-
 .hero-main {
   background-color: #2e2f42;
 }
@@ -122,7 +121,6 @@ p {
 .page-footer {
   background: #2e2f42;
   padding: 100px 0;
-  page-footer: 1440px;
 }
 .alert {
   font-size: 56px;
@@ -173,7 +171,34 @@ p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.text-two {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.text-four {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 8px;
+  color: rgba(67, 68, 85, 1);
+}
+.text-adress {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #434455;
+  position: relative;
+}
+.text-modal {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .logo-web {
@@ -268,9 +293,6 @@ main-port:focus {
   align-items: center;
   gap: 40px;
 }
-.item {
-  width: calc((100% - 80px) / 3);
-}
 .item-primery {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -353,6 +375,8 @@ img {
   border: 1px solid transparent;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+  background-color: rgba(64, 75, 191, 1);
+  color: #ffffff;
 }
 .btn-portfol:focus {
   border: 1px solid transparent;
@@ -464,7 +488,7 @@ img {
 
 /*--footer 4--*/
 .container-footer {
-  width: 1440px;
+  width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -474,7 +498,6 @@ img {
 .container-logo {
   gap: 120px;
   margin-right: 120px;
-  margin-left: 156px;
 }
 .social-footer {
   font-weight: 500;
@@ -518,19 +541,19 @@ img {
 .footer-fifht {
   fill: var(--cloud-color);
 }
-.header-nav-link::after {
+.aktive::after {
   content: "";
   display: block;
   position: absolute;
   bottom: -1px;
   left: 0;
-  width: 48px;
+  width: 100%;
   height: 4px;
   border-radius: 2px;
-}
-.header-nav-link.aktive::after {
   background-color: #404bbf;
+  color: #404bbf;
 }
+
 /*--modal window--*/
 
 .backdrop {
@@ -554,7 +577,7 @@ img {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   width: 408px;
-  min-height: 576px;
+  min-height: 564px;
   background: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -594,6 +617,14 @@ img {
 .port-link {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.port-link:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.port-link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 .port-link:hover .port-modal,
 .port-link:focus .port-modal {
   transform: translateY(0%);
@@ -615,4 +646,7 @@ img {
   width: 100%;
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.item {
+  position: relative;
 }
