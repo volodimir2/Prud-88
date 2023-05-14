@@ -48,7 +48,6 @@ p {
 }
 .link {
   text-decoration: none;
-  display: inline block;
 }
 .text-adress:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -83,6 +82,10 @@ p {
   color: #404bbf;
 }
 .header-nav-link:focus {
+  color: #404bbf;
+}
+.header-nav {
+  position: relative;
   color: #404bbf;
 }
 .hero-main {
@@ -557,7 +560,7 @@ img {
 /*--modal window--*/
 
 .backdrop {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -572,12 +575,12 @@ img {
   pointer-events: none;
 }
 .modal {
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   width: 408px;
-  min-height: 564px;
+  min-height: 576px;
   background: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
