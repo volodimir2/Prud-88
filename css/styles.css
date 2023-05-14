@@ -560,7 +560,7 @@ img {
 /*--modal window--*/
 
 .backdrop {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -575,8 +575,8 @@ img {
   pointer-events: none;
 }
 .modal {
-  position: relative;
-  top: 50%;
+  position: absolute;
+  top: 14%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   width: 408px;
