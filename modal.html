@@ -70,14 +70,36 @@
         </div>
       </section>
     </main>
+
+    <!--modalnoe window-->
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="btn-modal" type="button" data-modal-close>
-          Close
           <svg class="close" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
         </button>
+        <form class="form-own">
+          <p class="modal-p">Leave your contacts and we will call you back</p>
+          <label>
+            Name
+            <input type="text" name="name" autofocus />
+          </label>
+          <label>
+            Phone
+            <input type="text" name="phone" autofocus />
+          </label>
+          <label>
+            Email
+            <input type="text" name="email" autofocus />
+          </label>
+          <label>
+            Comment
+            <input type="text" name="comment" autofocus />
+          </label>
+          <button type="submit">Submit</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
