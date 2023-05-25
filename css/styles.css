@@ -731,10 +731,11 @@ img {
   flex-direction: row-reverse;
 }
 
-label {
+.form-label {
   display: flex;
   flex-direction: column;
   margin-bottom: 8px;
+  font-size: 12px;
 }
 .modal-p {
   height: 24px;
@@ -841,11 +842,20 @@ textarea {
   border-radius: 4px;
   border: 1px solid #2e2f42;
 }
-
+.form-input:focus {
+  border: 1px solid #4d5ae5;
+}
+.form-input:hover {
+  border: 1px solid #4d5ae5;
+  outline: none;
+}
+.form-input:focus + .icon {
+  fill: #4d5ae5;
+}
 .icon {
   position: absolute;
   display: inline-block;
-  top: 16px;
+  top: 12px;
   left: 16px;
   transform: translateY(50%);
 }
@@ -856,4 +866,7 @@ textarea {
 .form-field:focus-within > input .icon {
   background-color: #404bbf;
   border: #404bbf;
+}
+.icon:focus {
+  fill: navy blue;
 }
